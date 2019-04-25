@@ -1,0 +1,23 @@
+---
+layout: post
+title: Applescript to automatically update the EyeTV Guide
+date: '2014-07-05T05:24:25+01:00'
+tags: []
+tumblr_url: https://emjaypsy.tumblr.com/post/90837004866/applescript-to-automatically-update-the-eyetv
+---
+<p>ctzsnooze in the Apple Support Communities devised this:<br/>
+<a href="https://discussions.apple.com/thread/6043805">https://discussions.apple.com/thread/6043805</a></p>
+
+<p> <br/>
+tell application &ldquo;EyeTV&rdquo;<br/>
+          activate<br/>
+end tell<br/>
+tell application &ldquo;System Events&rdquo;<br/>
+          tell process &ldquo;EyeTV&rdquo;<br/>
+                    keystroke &ldquo;g&rdquo; using command down<br/>
+                    delay 1<br/>
+                    click (pop up button 1 of window 1)<br/>
+                    delay 1<br/>
+                    click menu item &ldquo;Update DVB Program Guide&rdquo; of menu 1 of pop up button 1 of window &ldquo;EyeTV Programs&rdquo;<br/>
+          end tell<br/>
+end tell</p>
