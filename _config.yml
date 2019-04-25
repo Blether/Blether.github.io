@@ -1,2 +1,6 @@
 name: Blethering on ...
 markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  
