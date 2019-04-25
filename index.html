@@ -10,7 +10,9 @@ title: Blethering on ...
 <ul class="posts">
 
 	  {% for post in site.posts limit:10 %}
-	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>: <span>{{ post.date | date_to_string }}</span></li>
+	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>: <span>{{ post.date | date_to_string }}</span>
+	    <p>{{ post.excerpt }}</p>
+	    </li>
 	  {% endfor %}
 	</ul>
 	
