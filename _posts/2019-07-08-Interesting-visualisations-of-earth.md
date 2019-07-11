@@ -15,5 +15,7 @@ Thought provoking new perspectives:
 
 Reminds me of the images from a few years ago now showing how little water is on the surface compared to the size of the planet:
 
+![All of Earth's Water in a single sphere](../images/2019-07-all-the-worlds-water.jpg)
+
 [All of Earth's Water in a single sphere!](https://www.usgs.gov/media/images/all-earths-water-a-single-sphere)
 
