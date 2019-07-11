@@ -7,7 +7,7 @@ title: Interesting visualisations of earth
 Recently interesting world maps with variations have been doing the rounds. 
 Thought provoking new perspectives:
 
-The Inverted World Map - Variations on a Blue Marble 
+![The Inverted World Map](../images/2019-07-inverted-earth-land-sea-map.jpg)
 
 [The Inverted World Map - Variations on a Blue Marble - 3Develop image blog](http://www.3develop.nl/blog/inverted-world-map-blue-marble/)
 
